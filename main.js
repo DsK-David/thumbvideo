@@ -12,8 +12,8 @@ function start(){
     }))
     .then(res => res.json())
     .then(data => {
-        data.items.forEach(item => {
-            getChannelIcon(item);
+        data.items.forEach(items => {
+            getChannelIcon(items);
         })
     })
     .catch(err => console.log(err));
