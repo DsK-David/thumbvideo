@@ -14,6 +14,7 @@ function start(){
     .then(data => {
         data.items.forEach(item => {
             getChannelIcon(item);
+            console.log(item)
         })
     })
     .catch(err => console.log(err));
