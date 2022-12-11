@@ -46,6 +46,7 @@ body{
 .channel-name{
     font-size: 14px;
     color: #979797;
+    font-family:monospace;
 }
 .search-box{
     position: relative;
