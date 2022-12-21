@@ -15,7 +15,7 @@ body{
 .video{
     min-height: 250px;
     height:auto;
-    background: #000000;
+    background: #0fb5bb;
 }
 
 .thumbnail{
@@ -47,7 +47,7 @@ body{
 .channel-name{
     font-size: 14px;
     color: #5e5d5d;
-    font-family:sans-serif;
+    font-family:monospace;
 }
 .search-box{
     position: relative;
