@@ -38,7 +38,7 @@ body{
 }
 
 .title{
-    width: 10pt;
+    width: 10px;
     height: 40px;
     overflow: hidden;
     word-wrap: break-word;
@@ -46,7 +46,7 @@ body{
 
 .channel-name{
     font-size: 14px;
-    color: #979797;
+    color: #5e5d5d;
     font-family:sans-serif;
 }
 .search-box{
