@@ -14,7 +14,7 @@ body{
 
 .video{
     min-height: 250px;
-    height:auto;
+    height:250px;
     background: #012030;
 }
 
@@ -41,7 +41,6 @@ body{
     width: 14pt;
     height: 40px;
     overflow: hidden;
-    word-wrap: break-word;
 }
 
 .channel-name{
