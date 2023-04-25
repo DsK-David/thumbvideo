@@ -15,12 +15,12 @@ body{
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #212129;
     border-radius: 5px;
   }
   
   .video-info img {
-    width: 100px;
+    width: auto;
     height: 100px;
     object-fit: cover;
     margin-right: 10px;
@@ -31,7 +31,7 @@ body{
     flex-grow: 1;
   }
   
-  .video-info h3 {
+  .video-info h4 {
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -39,7 +39,7 @@ body{
   .video-info p {
     margin-top: 0;
     margin-bottom: 0;
-    color: #666;
+    color: #000000;
   }
   
   .video-info img:last-child {
