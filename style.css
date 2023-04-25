@@ -33,12 +33,12 @@ body{
   
   .video-info h4 {
     margin-top: 0;
-    margin-bottom: 5px;
+    word-wrap: break-word;
   }
   .channel-name{
     margin-top: 0;
     margin-bottom: 0;
-    color: #000000;
+    color: #696666;
   }
   
   .video-info img:last-child {
