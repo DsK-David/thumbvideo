@@ -11,43 +11,46 @@ body{
     overflow-x: hidden;
     margin-top: 20px;
 }
-
-.video{
-    min-height: 250px;
-    height:250px;
-    background: #012030;
-}
-
-.thumbnail{
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-}
-
-.content{
-    width: 200px;
-    height: 100px;
+.video-info {
     display: flex;
-}
-
-.channel-icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .video-info img {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-}
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .video-info .text {
+    flex-grow: 1;
+  }
+  
+  .video-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .video-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #666;
+  }
+  
+  .video-info img:last-child {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
 
-.title{
-    width: 14pt;
-    height: 40px;
-    
-}
 
-.channel-name{
-    font-size: 14px;
-    color: #5e5d5d;
-    font-family:monospace;
-}
 .search-box{
     position: relative;
     max-width: 500px;

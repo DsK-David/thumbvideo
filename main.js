@@ -31,15 +31,13 @@ function start(){
         })
         const makeVideoCard = (data) => {
             videoCardContainer.innerHTML += `
-            <div class="video" onclick="location.href = 'https://www.youtube.com/embed/${data.id}'">
+            <div class="video-info" onclick="location.href = 'https://www.youtube.com/embed/${data.id}'">
                 <img src="${data.snippet.thumbnails.high.url}" class="thumbnail" alt="">
-                <div class="content">
-                    <img src="${data.channelThumbnail}" class="channel-icon" alt="">
-                    <div class="info">
-                        <h4 class="title">${data.snippet.title}</h4>
-                        <p class="channel-name">${data.snippet.channelTitle}</p>
-                    </div>
+                <div class="text">
+                <h4 class="title">${data.snippet.title}</h4>
+                <p class="channel-name">${data.snippet.channelTitle}</p>
                 </div>
+                <img src="${data.channelThumbnail}" class="channel-icon" alt="">
             </div>
             `;
         }
