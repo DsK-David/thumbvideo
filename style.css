@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #212129;
+    background: #212129;
     border-radius: 5px;
   }
   
@@ -35,8 +35,7 @@ body{
     margin-top: 0;
     margin-bottom: 5px;
   }
-  
-  .video-info p {
+  .channel-name{
     margin-top: 0;
     margin-bottom: 0;
     color: #000000;
